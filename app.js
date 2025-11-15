@@ -4,6 +4,8 @@ const port = 3000;
 
 app.get('/', (req, res) => {
     res.send('Hello DevOps World from Jenkins & Docker!');
+    res.send("Webhook working test!");
+
 });
 
 app.listen(port, () => console.log(`App running on port ${port}`));
